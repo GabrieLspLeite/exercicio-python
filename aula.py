@@ -1,0 +1,5 @@
+input("Telefonou para a vítima?\n")
+input("Esteve no local do crime?\n")
+input("Mora perto da vítima?\n")
+input("Devia para a vítima?\n")
+input("Já trabalhou com a vítima?\n")
