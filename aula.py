@@ -11,11 +11,11 @@ for i in respostas:
     if i == "s" or i == "S":
         contador += 1
 
-if contador > 1:
+if contador == 2:
     print("Você é suspeito")
-elif contador > 2:
+elif contador > 2 and contador < 5:
     print("Você é cúmplice")
-elif contador > 4:
+elif contador == 5:
     print("Você é o assassino")
 else:
     print("Você é inocente")
